@@ -1,0 +1,4 @@
+select * from users where phoneNumber like '%133456789%';
+SELECT concat('132456789',cast(substr(phoneNumber, 10,2) as char)) from users where phoneNumber = '10000000001'
+SELECT cast(substr(phoneNumber, 10,2) as char) from users where phoneNumber = '13245678904'
+#update users set phoneNumber=concat('133456789',cast(substr(phoneNumber, 10,2) as char)) where phoneNumber like '%100000000%'
