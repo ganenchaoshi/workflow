@@ -1,0 +1,15 @@
+$ git checkout -b release
+$ git push origin release
+ git branch --set-upstream-to=origin/<branch>           branch -> release
+#查看远程分支链接地址
+git remove -v
+git push -u origin <branch>
+
+
+先用fetch命令更新remote索引。
+
+$ git fetch
+1
+再查看remote分支，发现已经可以看到目标分支branch170628_foo。
+
+$ git branch -a
