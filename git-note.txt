@@ -1,1 +1,7 @@
-git checkout -b dev
+#创建release分支并切换到release分支
+git checkout -b release
+
+#推送远程分支
+git push origin release
+#建立与远程分支的链接
+git branch --set-upstream-to=origin/release
