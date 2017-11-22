@@ -1,6 +1,12 @@
+#创建release分支并切换到release分支
 $ git checkout -b release
+
+#推送远程分支
 $ git push origin release
+
+#建立与远程分支的链接
  git branch --set-upstream-to=origin/<branch>           branch -> release
+
 #查看远程分支链接地址
 git remove -v
 git push -u origin <branch>

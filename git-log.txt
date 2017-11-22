@@ -1,0 +1,3 @@
+git config --global alias.lmr  "log --date=format:'%Y-%m-%d' --no-merges --color --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Cblue %s %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit"
+git config --global alias.lmr  "log --date=format:'%Y-%m-%d' --no-merges --color --pretty=format:' %Cgreen%cd  %Cred%h%Creset %C(yellow)%d%Cblue %s' --abbrev-commit"
+git config --global alias.lmr  "log --date=format:'%Y-%m-%d' --no-merges --color --pretty=format:'%h %cd %d %s' --abbrev-commit"
