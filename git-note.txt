@@ -1,7 +1,28 @@
-#´´½¨release·ÖÖ§²¢ÇĞ»»µ½release·ÖÖ§
+#åˆ›å»ºreleaseåˆ†æ”¯å¹¶åˆ‡æ¢åˆ°releaseåˆ†æ”¯
 git checkout -b release
 
-#ÍÆËÍÔ¶³Ì·ÖÖ§
+#æ¨é€è¿œç¨‹åˆ†æ”¯
 git push origin release
-#½¨Á¢ÓëÔ¶³Ì·ÖÖ§µÄÁ´½Ó
+#å»ºç«‹ä¸è¿œç¨‹åˆ†æ”¯çš„é“¾æ¥
 git branch --set-upstream-to=origin/release
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+commit from release
+commit from release
+commit from release
+commit from release
