@@ -1,15 +1,27 @@
 $ git checkout -b release
 $ git push origin release
  git branch --set-upstream-to=origin/<branch>           branch -> release
-#²é¿´Ô¶³Ì·ÖÖ§Á´½ÓµØÖ·
+#æŸ¥çœ‹è¿œç¨‹åˆ†æ”¯é“¾æ¥åœ°å€
 git remove -v
 git push -u origin <branch>
 
 
-ÏÈÓÃfetchÃüÁî¸üĞÂremoteË÷Òı¡£
+å…ˆç”¨fetchå‘½ä»¤æ›´æ–°remoteç´¢å¼•ã€‚
 
 $ git fetch
 1
-ÔÙ²é¿´remote·ÖÖ§£¬·¢ÏÖÒÑ¾­¿ÉÒÔ¿´µ½Ä¿±ê·ÖÖ§branch170628_foo¡£
+å†æŸ¥çœ‹remoteåˆ†æ”¯ï¼Œå‘ç°å·²ç»å¯ä»¥çœ‹åˆ°ç›®æ ‡åˆ†æ”¯branch170628_fooã€‚
 
 $ git branch -a
+
+
+
+git push origin [tagname]
+
+
+pip install gitchangelog
+gitchangelog æ”¾åˆ°.gitconfigæ–‡ä»¶æ‰€åœ¨æ–‡ä»¶å¤¹
+cd surprised-fish
+$gitchangelog head
+
+commit from master
